@@ -1,0 +1,127 @@
+body
+{
+    background-color: whitesmoke;
+}
+.dd 
+{
+    position: absolute;
+    text-align: left;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.d
+{
+    text-align: right;
+}
+.dropbtn 
+{
+    background-color: orangered;
+    color: white;
+    padding: 16px;
+    border: none;
+    font-size: 150%;
+    font-family: 'Roboto Condensed', sans-serif;
+    min-width: 150px;
+}
+
+.dropbtn:hover
+{
+    min-width: 150px;
+}
+.dropdown 
+{
+    position: absolute;
+    text-align: left;
+    padding: 1%;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+  
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+.dropdown-content a 
+{
+    transition-property: background, color;
+    transition-duration: .5s;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover 
+{
+    background-color:orangered;
+    color: white;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}  
+.dropdown:hover .dropbtn 
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.cartdiv
+{
+    text-align: center;
+}
+footer
+{
+    background-color: black;
+    color:white;
+    background-size: cover;
+    background-position: bottom;
+}
+.footerdiv
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.useful, .contactdiv, .app
+{
+    text-align: center;
+}
+.usefultext
+{
+    font-size: 200%;
+    font-family: 'Ibarra Real Nova', serif;
+    color:orangered;
+}
+.contacttext
+{
+    color:orangered;
+    font-size: 200%;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.usefulcontacttext
+{
+    font-size: 110%;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.apptext
+{
+    color:orangered;
+    font-size: 200%;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.appstores
+{
+    max-width: 30%;
+    max-height: 40%;
+}

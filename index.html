@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--Mohammed Sawkat-->
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="index2.css">
+<link rel="stylesheet" href="fonts.css">
+<script src="products.js"></script>
+<script>
+    function changeSite()
+    {
+        window.location.href = "products.html";
+    }
+</script>
+<html>
+<head>
+    <title> Home </title>
+</head>
+<body>
+
+<div class="dd">
+<div class="dropdown">
+    <button class="dropbtn" onclick="">Home</button>
+    <div class="dropdown-content">
+      <a class="navButton" href="products.html">Products</a>
+      <a class="navButton" href="news.html">News</a>
+      <a class="navButton" href="account.html">Account</a>
+      <a class="navButton" href="cart.html">Cart</a>
+    </div>
+</div>
+</div>
+<br>
+<div class="wholePage">
+<div class="ann">
+    <h1 class="introtext" id="phone1"> Introducing the All New</h1>
+    <h1 class="introtext2" id="phone2"> Phone Mini and Phone Mini Max</h1>
+</div>
+<div class="featuredPhone">
+    <div class="featuredContainer" id="phone">
+        <div class="featuredPic">
+            <img class="featuredImage" src="tinyiphone.jpeg" />
+        </div>
+        <div class="featuredText" id="phone3">
+            <h1 class="sidetext1" id="phone4"> The Future in the Palm of your hands </h1>
+            <h1 class="sidetext2" id="phone5"> Built to be the ultimate portable device. Water Proof, Dust Proof, Life Proof. Packed with features, from top to bottom.<br>
+        </div>
+    </div>
+    <br>
+</div>
+<div class="viewbutton">
+    <button class="phoneButton" role="button" id="phone" onclick="changeSiteMini()"><span class="text">View Details</span></button>
+</div>
+
+<div class="ann2">
+    <h1 class="introtext" id="watch1"> The Future on your wrist</h1>
+    <h1 class="introtext2" id="watch2"> Introducing the All New <br> Watch 7th Generation</h1> 
+</div>
+
+<div class="featuredWatch">
+    <div class="featuredContainer" id="watch">
+        <div class="featuredPic">
+            <img class="featuredImage" src="watch.jpeg" />
+        </div>
+        <div class="featuredText" id="watch3">
+            <h1 class="sidetext1" id="watch4"> The Next Generation of Fitness</h1>
+            <h1 class="sidetext2" id="watch5"> The All new Retina Display is nothing like you've ever seen. 
+                Combining health and productivity like never before.
+                Water Proof and Dust Proof and new body, it's the most durable watch ever. </h1>
+        </div>
+    </div>
+</div>
+</div>
+<div class="viewbutton" id="firstReact">
+    <button class="phoneButton" role="button" id="watch" onclick="changeSite()"><span class="text">View Details</span></button>
+</div>
+
+<div class="ann3">
+    <h1 class="introtext" id="headphone1"> It's (basically) Magic</h1>
+    <h1 class="introtext2"id="headphone2" > Introducing the All new <br> IrPods</h1> 
+</div>
+
+<div class="featuredHeadphones">
+    <div class="featuredContainer">
+        <div class="featuredPic" id="headphone">
+            <img class="featuredImage" src="headphones.jpeg" />
+        </div>
+        <div class="featuredText" id="headphone3">
+            <h1 class="sidetext1" id="headphone4"> Sound Elevated to the Next Level</h1>
+            <h1 class="sidetext2" id="headphone5"> Enjoy the freedom of Bluetooth without compromising on sound quality. All day battery, fast charging and instant connect, it's Magical. </h1>
+        </div>
+    </div>
+</div>
+</div>
+<div class="viewbutton">
+    <button class="phoneButton" role="button" id="headphone" onClick="changeSite()"><span class="text">View Details</span></button>
+</div>
+
+</div>
+
+
+
+<br>
+<footer>
+    <div class="footerdiv">
+    <div class="useful">
+        <h2 class="usefultext"> Useful Links</h2>
+        <p class="usefulcontacttext"> Privacy Policy</p>
+        <p class="usefulcontacttext">Return Policy</p>
+        <p class="usefulcontacttext">Terms of Service</p>
+        <p class="usefulcontacttext">About Us</p>
+        <p class="usefulcontacttext">Report an Issue</p>
+    </div>
+    <div class="contactdiv">
+        <p class="contacttext"> Contact Us</p>
+        <p class="usefulcontacttext">Facebook</p>
+        <p class="usefulcontacttext">Twitter</p>
+        <p class="usefulcontacttext">Instagram</p>
+        <p class="usefulcontacttext">Email</p>
+        <p class="usefulcontacttext">Phone</p>
+    </div>
+    <div class="app">
+    <p class="apptext">Download the App:</p>
+    <img class="appstores" src="app-store.png"> <br>
+    <img class="appstores" src="play-store.png">
+    </div>
+    </div>
+
+</footer>
+
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="like_button.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--Mohammed Sawkat-->
+<script src="products.js"></script>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="products.css">
+<link rel="stylesheet" href="fonts.css">
+<script src="cart.js"></script>
+
+<html>
+<head>
+    <title> Products </title>
+</head>
+<body onload="initialize();">
+<div class="dd">
+    <div class="dropdown">
+        <button class="dropbtn" onclick="">Products</button>
+            <div class="dropdown-content">
+              <a class="navButton" href="index.html">Home</a>
+              <a class="navButton" href="news.html">News</a>
+              <a class="navButton" href="account.html">Account</a>
+              <a class="navButton" href="cart.html">Cart</a>
+            </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="productsWhole" id="productsWhole">
+    <div class="navig">
+    <nav class="navMenu">
+        <a href="#" id="phonemini" onclick="change('phonemini');">Phone Mini</a>
+        <a href="#" id="phonemax" onclick="change('phonemax');">Phone Max</a>
+        <a href="#" id="watch" onclick="change('watch');">Watch</a>
+        <a href="#" id="irpods" onclick="change('irpods');">Irpods</a>
+      </nav>
+    </div>
+
+    <div class="productBody" id="pB">
+        <div class="introContainer" id="introC">
+            <div class="introImg" id="introImg">
+                <img id="introImage" src="phonemini1.png" class="img1"> </img>
+            </div>
+            <div class="introText" id="introText">
+                <h1 class="text1" id="text1"></h1>
+                <h1 class="text2" id="text2"></h1>
+            </div>
+        </div>
+
+        <div class="fOne">
+            <img class="fOneImg" id="featOneImg" src="phonemini2.png"> 
+            <h1 id="featOneTitle" class="featOneTitle"></h1>
+            <h2 id="featOneSubtitle" class="featOneSubtitle"></h2>
+            <button id="viewB" class="viewButton">View Samples</button>
+            <br>
+            <br>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="fTwo">
+            <div class="fTwoContainer">
+                <div class="twoContainerPic">
+                    <img class="twoContainerPicture" id="fTwoContainerPicture" src="phonemini3.png">
+                </div>
+                <div class="twoContainerText">
+                    <h1 class="featTwoTitle" id="featTwoTitle"> </h1>
+                    <h2 class="featTwoSubtitle" id="featTwoSubtitle"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="fThree">
+            <div class="fThreeContainer">
+                <div class="threeContainerPic">
+                    <img class="fthreeContainerPicture" id="fThreeContainerPicture" src="phonemini5.jpeg">
+                </div>
+                <div class="threeContainerText">
+                    <h1 class="featThreeTitle" id="featThreeTitle"> </h1>
+                    <h2 class="featThreeSubtitle" id="featThreeSubtitle"></h2>
+                    <button id="accB" class="accButton">Shop Accessories</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="fFour">
+            <div class="fFourContainer">
+                <div class="fFourContainerPicture">
+                <img class="fFourContainerPic" id="fFourContainerPic" src="phonemini4.jpeg"/>
+            </div>
+            <div class="fFourContainerText">
+                <h1 class="featFourTitle" id="featFourTitle"> </h1>
+                <h2 class="featFourSubtitle" id="featFourSubtitle"> </h2>
+                <button id="buyButton" class="viewButton" onclick="function lol(){document.getElementById(cartt).innerHTML=n}">Pre-Order</button>
+
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+</div>
+
+<footer>
+    <div class="footerdiv">
+    <div class="useful">
+        <h2 class="usefultext"> Useful Links</h2>
+        <p class="usefulcontacttext"> Privacy Policy</p>
+        <p class="usefulcontacttext">Return Policy</p>
+        <p class="usefulcontacttext">Terms of Service</p>
+        <p class="usefulcontacttext">About Us</p>
+        <p class="usefulcontacttext">Report an Issue</p>
+    </div>
+    <div class="contactdiv">
+        <p class="contacttext"> Contact Us</p>
+        <p class="usefulcontacttext">Facebook</p>
+        <p class="usefulcontacttext">Twitter</p>
+        <p class="usefulcontacttext">Instagram</p>
+        <p class="usefulcontacttext">Email</p>
+        <p class="usefulcontacttext">Phone</p>
+    </div>
+    <div class="app">
+    <p class="apptext">Download the App:</p>
+    <img class="appstores" src="app-store.png"> <br>
+    <img class="appstores" src="play-store.png">
+    </div>
+    </div>
+
+</footer>
+</body>
+</html>

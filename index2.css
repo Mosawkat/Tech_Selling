@@ -1,0 +1,202 @@
+.wholePage
+{
+    animation: myFade;
+    animation-duration: 3s;
+}
+.featuredPhone
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes myFade 
+{
+    0%{opacity: 0;}
+    25%{opacity: 0.25}
+    50%{opacity: 0.50;}
+    75%{opacity:0.75}
+    100%{opacity: 1;}
+}
+
+.featuredContainer
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2%;
+    width: 90%;
+    border-radius: 25px;
+}
+.featuredImage
+{
+    width: 100%;
+    height: 100%;
+}
+.featuredText
+{
+    padding: 2%;
+}
+.ann
+{
+    text-align: center;
+    color:black;
+    font-family: 'Alegreya', sans-serif;
+}
+.introtext
+{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 600%;
+    font-stretch:extra-expanded;
+}
+.introtext2
+{
+    font-size: 450%;
+
+}
+.sidetext1
+{
+    color:orangered;
+    font-size: 300%;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+.sidetext2
+{
+    font-size: 250%;
+    color:black;
+    text-align: center;
+}
+.ann2
+{
+    padding-top: 80px;
+    text-align: center;
+}
+.featuredWatch
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featuredHeadphones
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ann3
+{
+    text-align: center;
+}
+#phone2.introtext2
+{
+    font-family: 'Readex Pro', sans-serif;
+}
+#phone3.featuredText
+{
+    background-color: #f5f5f5;
+}
+
+#phone5.sidetext2
+{
+    color:black;
+    font-family: 'Fira Sans', sans-serif;
+}
+#watch2.introtext2
+{
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#watch3.featuredText
+{
+    background-color: black;
+}
+#watch5.sidetext2
+{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+#headphone2.introtext2
+{
+    font-family: 'Lexend', sans-serif;
+}
+.featuredHeadphones
+{
+    background-color:#dcdcdc;
+}
+#headphone5.sidetext2
+{
+    font-family: 'Signika Negative', sans-serif;
+}
+.viewbutton
+{
+    text-align: center;
+    animation: myFade;
+    animation-duration: 1.5s;
+}
+.phoneButton 
+{
+    appearance: none;
+    background-color: #FFFFFF;
+    border-width: 0;
+    box-sizing: border-box;
+    color: orangered;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'K2D', sans-serif;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1em;
+    margin: 0;
+    opacity: 1;
+    outline: 0;
+    padding: 1.5em 2.2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: geometricprecision;
+    text-transform: uppercase;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.phoneButton:before 
+{
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: #EBEBEB;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+}
+.phoneButton:hover:before 
+{
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+.phoneButton :after 
+{
+    background-color: #FFFFFF;
+}
+.phoneButton span 
+{
+    z-index: 1;
+    position: relative;
+}
+#watch.phoneButton
+{
+    font-family: 'Yantramanav', sans-serif;
+}
+#headphone.phoneButton
+{
+    font-family: 'Lexend', sans-serif;
+}
