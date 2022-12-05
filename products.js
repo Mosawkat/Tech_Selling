@@ -304,14 +304,85 @@ function switchIrpods()
 {
     document.getElementById("productsWhole").style.animation ='productsFade 1s';
 
-    const pmax = 
+    const irpodsImgs = 
+    [
+        'irpods1.jpeg', 'irpods2.jpeg', 'irpods3.jpeg', 'irpods4.png', 'watch5.jpeg', 'watch6.jpeg', 'watch7.png'
+    ];
+    const buttonTextIrpods =
+    [
+        "Audio Demo", "Learn More"
+    ];
+    const irpods = 
     [
     "This is Irpods",
-    "It's Magical",
-    "3",
-    "4",
+    "Magic in your ears",
+    "Audio wire-free",
+    "With new Bluetooth technology, never worry about cables again. With the H1 Chip, pairing is easy as a snap and will seamlessly work across all your iCloud devices.",
+    "Universal Fit",
+    "Designed to fit every ear on the planet, no matter what.",
+    "All Day Battery",
+    "Each earbud lasts 6 hours on a single charge. With the Battery Case, these will last you all day.",
+    "Available Soon",
+    "$159",
     ];
 
-    document.getElementById("text1").innerHTML=pmax[1];
-    document.getElementById("text2").innerHTML=pmax[2];
+    document.getElementById("accB").style.display="none";
+    var maxtheImg = document.getElementById('introImage');
+    maxtheImg.style.width = "70%";
+    maxtheImg.style.height = "90%";
+
+
+    text1max=document.getElementById("text1");
+    text1max.innerHTML=irpods[2];
+
+    text2max=document.getElementById("text2");
+    text2max.innerHTML=irpods[1];
+
+    text3max=document.getElementById("featOneTitle");
+    text3max.innerHTML=irpods[2];
+
+    text4max=document.getElementById("featOneSubtitle");
+    text4max.innerHTML=irpods[3];
+
+    text5max=document.getElementById("featTwoTitle");
+    text5max.innerHTML=irpods[4];
+
+    text6max=document.getElementById("featTwoSubtitle");
+    text6max.innerHTML=irpods[5];
+
+    text7max=document.getElementById("featThreeTitle");
+    text7max.innerHTML=irpods[6];
+
+    text8max=document.getElementById("featThreeSubtitle");
+    text8max.innerHTML=irpods[7];
+
+    text9max=document.getElementById("featFourTitle");
+    text9max.innerHTML=irpods[8];
+
+    text10max=document.getElementById("featFourSubtitle");
+    text10max.innerHTML=irpods[9];
+
+    button1max=document.getElementById('viewB');
+    button1max.innerHTML=buttonTextIrpods[0];
+
+    button2=document.getElementById("accB");
+    button2.innerHTML=buttonTextIrpods[1];
+
+    introImg=document.getElementById("introImage");
+    introImg.src=irpodsImgs[0];
+
+    img1=document.getElementById("introImg");
+    img1.src=irpodsImgs[0];
+
+    img2=document.getElementById("featOneImg");
+    img2.src=irpodsImgs[1];
+
+    img3=document.getElementById("fTwoContainerPicture");
+    img3.src=irpodsImgs[2];
+
+    img4=document.getElementById("fThreeContainerPicture");
+    img4.src=irpodsImgs[3];
+
+    img5=document.getElementById("fFourContainerPic");
+    img5.src=irpodsImgs[0];
 }
